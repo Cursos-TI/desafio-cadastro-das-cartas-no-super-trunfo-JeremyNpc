@@ -25,8 +25,8 @@ float Pibpc2 =pib / Populacao;
 float Dp2 = Populacao / Area2;
 
 printf("Estado: %c\n, Codigo_da_carta: %s\n, Cidade: %s\n, Populaçao: %d habitantes\n, Area: %f km\n, Pib: %f\n, Pontos_Turisticos: %d ", S, codigoc, cidade2, populacao, Area2, pib, Pt);
-printf("Densidade Populacional: %f\n", Pibpc2);
-printf("Pib per capita: %f\n\n", Dp2);
+printf("Densidade Populacional: %f\n", Dp2);
+printf("Pib per capita: %f\n\n", Pibpc2);
 
 float Super_Poder_C1 = populacao + Area1 + Pib1 + Turismo + Pibpc1;
 printf("Super poder carta 1: %f\n\n", Super_Poder_C1); 
